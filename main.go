@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/penkong/goAlgoPractice/challenges"
+	"github.com/penkong/goAlgoPractice/algos"
 	// "github.com/penkong/goAlgoPractice/algos"
 )
 
@@ -15,8 +15,12 @@ func main() {
 	// }
 	// fmt.Println("index of item is", el)
 
-	bn := make([]int, 0)
-	m := append(bn, 1, 2, 1, 2, 1, 3, 3, 4, 3, 3, 4, 3)
-	el := challenges.SalesByMatch(12, &m)
+	// bn := make([]int, 0)
+	// m := append(bn, 1, 2, 1, 2, 1, 3, 3, 4, 3, 3, 4, 3)
+	// el := challenges.SalesByMatch(12, &m)
+	// fmt.Println(el)
+
+	m := []int{434, 235, 435, 432, 65, 3, 23, 7, 34, 765, 234, 7}
+	el := algos.SelectionSort(&m)
 	fmt.Println(el)
 }
