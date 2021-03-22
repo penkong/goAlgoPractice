@@ -24,7 +24,7 @@ func main() {
 	// el := algos.SelectionSort(&m)
 	// fmt.Println(el)
 
-	m := []int{434, 235, 435, 432, 65, 3, 23, 7, 34, 765, 234, 7}
+	m := []int{434, 235, 435, 432, 65, 3, 23, 7, 34, 765, 234, 8}
 	el := algos.Quicksort(m)
 	fmt.Println(el)
 }
