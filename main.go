@@ -20,7 +20,11 @@ func main() {
 	// el := challenges.SalesByMatch(12, &m)
 	// fmt.Println(el)
 
+	// m := []int{434, 235, 435, 432, 65, 3, 23, 7, 34, 765, 234, 7}
+	// el := algos.SelectionSort(&m)
+	// fmt.Println(el)
+
 	m := []int{434, 235, 435, 432, 65, 3, 23, 7, 34, 765, 234, 7}
-	el := algos.SelectionSort(&m)
+	el := algos.Quicksort(m)
 	fmt.Println(el)
 }
